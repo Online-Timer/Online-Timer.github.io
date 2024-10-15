@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C9D6DF;
+}
+.TopNav{
+    overflow: hidden;
+    background-color: #F0F5F9;
+}
+.TopNav a{
+    font-family: "Arial", sans-serif;
+    float: left;
+    color: #222222;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.TopNav a:hover {
+    background-color:#9DB2BF;
+    color: #222222;
+}
+.TopNav a.active{
+    background-color: #9DB2BF;
+    color: #222222;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Calibri", sans-serif;
+    border: 2px solid #526D82;
+    outline: none;
+    background-color: #C9D6DF;
+    color: #222222;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9DB2BF;
+}
+.container{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container button {
+    width: 150px;
+    height: 80px;
+    margin: 50px;
+}
+
+.container2{
+    position:fixed;
+    top: 130px;
+    left: 480px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 50vh;*/
+}
+.container2 button {
+    width: 120px;
+    height: 80px;
+    margin: 20px;
+}
+
+.timer{
+    font-size: 50px;
+    font-weight: bold;
+    color: #222222;
+}
+.timer span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+}
+.Title{
+    margin-top: 50px;
+    text-align: center;
+    color: #222222;
+    font-family: "font", sans-serif;
+}
+.Theme{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.Time{
+    color: #222222;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 100px;
+}
+.changeButtons{
+    cursor: pointer;
+    color: #222222;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+}
+.plus{
+    background-color:#1E2022;
+    color: #222222;
+    border: 2px solid #526D82;
+    border-radius:10px;
+    font-family:"font", sans-serif;
+    width: 40px;
+    height:40px;
+    text-align: center;
+}
+.minus{
+    background-color:#1E2022;
+    color: #222222;
+    border: 2px solid #526D82;
+    border-radius:10px;
+    font-family:"font", sans-serif;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.plus:hover{
+    background-color: #9DB2BF;
+}
+.minus:hover {
+    background-color: #9DB2BF;
+}

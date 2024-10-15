@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Online Timer</title>
+    <script src="Stopwatch_script.js"></script>
+    <link id="theme" rel="stylesheet" href="dark_style.css">
+</head>
+
+<body>
+
+<div class="TopNav">
+    <a href="Countdown.html">Countdown</a>
+    <a class="active" href="Stopwatch.html">Stopwatch</a>
+</div>
+
+<h1 id="Countdown" class="Title">Stopwatch</h1>
+<p id="output" class="Time"></p>
+<div class="container">
+    <button id = "sp" type="button" onclick="sp()">start</button>
+    <button type="button" onclick="reset()">reset</button>
+</div>
+
+<img id="sty" src="light.png" alt="Button" onclick="sty()" class="Theme">
+<div>
+    <p>Time passed:<progress id="prog" max="100"></progress><span>0</span>%</p>
+</div>
+
+</body>
+
+</html>
