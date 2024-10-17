@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Timer</title>
-    <script src="Countdown_script.js"></script>
+    <script src="Stopwatch_script.js"></script>
     <link id="theme" rel="stylesheet" href="dark_style.css">
 </head>
 
 <body>
+
 <div class="TopNav">
-    <a class="active" href="Countdown.html">Countdown</a>
-    <a href="index.html">Stopwatch</a>
+    <a href="Countdown.html">Countdown</a>
+    <a class="active" href="index.html">Stopwatch</a>
 </div>
 
-<h1  class="Title">Countdown</h1>
+<h1 id="Countdown" class="Title">Stopwatch</h1>
 <p id="output" class="Time"></p>
 <div class="container">
-    <button id="sp" type="button" onclick="sp()">start</button>
-    <button id="cr" type="button" onclick="reset()">change</button>
+    <button id = "sp" type="button" onclick="sp()">start</button>
+    <button type="button" onclick="reset()">reset</button>
 </div>
 
 <img id="sty" src="light.png" alt="Button" onclick="sty()" class="Theme">

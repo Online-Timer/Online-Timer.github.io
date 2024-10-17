@@ -3,6 +3,7 @@ let pret = 30000; //10ms (ms instead of 10ms)
 let time = pret;
 let transt="";
 let sr=false;
+let intervalId;
 
 function f0(t){
     if(t<10){
@@ -16,7 +17,10 @@ function sp(){
         document.getElementById("cr").innerText = "reset";
         document.getElementById("sp").innerText = "pause";
         pause=false;
-        setInterval(function () {
+        if (intervalId) {
+            clearInterval(intervalId);
+        }
+        intervalId=setInterval(function () {
             if (!pause && time > 0) {
                 time--;
                 load();
@@ -85,4 +89,6 @@ function loadtheme(){
 window.onload = function(){
     load();
     loadtheme();
+    sr=true;
+    reset()
 }

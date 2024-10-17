@@ -59,33 +59,62 @@ button:hover{
     margin: 50px;
 }
 
-.container2{
-    position:fixed;
-    top: 130px;
-    left: 480px;
-    margin-top: 50px;
+.timechanger{
+    position: relative;
+    width: 100%;
+    height: 200px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*height: 50vh;*/
-}
-.container2 button {
-    width: 120px;
-    height: 80px;
-    margin: 20px;
 }
 
+
 .timer{
+    position: absolute;
     font-size: 50px;
     font-weight: bold;
     color: #222222;
+    margin-top: 20px;
+    z-index: 10;
 }
 .timer span{
     font-size: 30px;
     font-weight: bold;
     color: #222222;
+    z-index: 10;
 }
+.container2{
+    margin-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 button {
+    width: 110px;
+    height: 80px;
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    border: none;
+    outline: none;
+    background-color: #C9D6DF;
+    color: #222222;
+    font-size: 100px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.container2 button:hover{
+    background-color: #9DB2BF;
+}
+
 .Title{
     margin-top: 50px;
     text-align: center;
@@ -138,4 +167,17 @@ button:hover{
 }
 .minus:hover {
     background-color: #9DB2BF;
+}
+.ChangeButtons{
+    margin-top: -50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.ChangeButtons button{
+    width: 150px;
+    height: 80px;
+    margin: 50px;
 }

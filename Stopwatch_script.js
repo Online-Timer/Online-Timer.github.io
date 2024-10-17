@@ -1,6 +1,7 @@
 let pause=true;
 let time = 0;
 let transt="";
+let intervalId;
 
 function f0(t){
     if(t<10){
@@ -12,7 +13,10 @@ function sp(){
     if(pause){
         document.getElementById("sp").innerText = "pause";
         pause=false;
-        setInterval(function () {
+        if (intervalId) {
+            clearInterval(intervalId);
+        }
+        intervalId=setInterval(function () {
             if (!pause) {
                 time++;
                 load();
