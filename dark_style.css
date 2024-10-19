@@ -39,7 +39,7 @@ button{
     color: white;
     font-size: 30px;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 25px;
     cursor: pointer;
 }
 button:hover{
@@ -66,23 +66,30 @@ button:hover{
     margin-top: 70px;
 }
 .container2 button {
+    margin-top: 0;
     width: 130px;
     height: 90px;
-    margin: 9px;
+    margin-left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: "font", sans-serif;
     border: none;
     outline: none;
     background-color: #1E2022;
     color: white;
     font-size: 100px;
-    font-weight: bolder;
+    font-weight: normal;
     border-radius: 10px;
     cursor: pointer;
 }
-
+.TimeSymbol{
+    font-family: "font",sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-left: 0;
+}
 .container2 button:hover{
     background-color: #9DB2BF;
 }
@@ -148,7 +155,7 @@ button:hover{
     background-color: #9DB2BF;
 }
 .ChangeButtons{
-    margin-top: -50px;
+    margin-top: 50px;
     text-align: center;
     display: flex;
     justify-content: center;
