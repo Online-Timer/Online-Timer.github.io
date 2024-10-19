@@ -26,8 +26,6 @@ function cancel(){
     window.open("Countdown.html","_self");
 }
 function load(){
-    transt = show(pret);
-    document.getElementById("output").innerText = transt;
     document.getElementById("0").innerText = f0(a[0]);
     document.getElementById("1").innerText = f0(a[1]);
     document.getElementById("2").innerText = f0(a[2]);
@@ -38,7 +36,7 @@ function loadtheme(){
 }
 
 function checka(a,b){
-    if(a[3]>=60){
+    if(a[3]>=100){
         a[2]++;
         a[3]=0;
     }
