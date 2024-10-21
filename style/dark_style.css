@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E2022 ;
+
+}
+.TopNav{
+    overflow: hidden;
+    background-color:#2B2D30 ;
+}
+.TopNav a{
+    font-family: "Arial", sans-serif;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.TopNav a:hover {
+    background-color:#1E202F;
+    color: white;
+}
+.TopNav a.active{
+    background-color: #1E202F;
+    color: white;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Calibri", sans-serif;
+    border: 2px solid #526D82;
+    outline: none;
+    background-color: #1E2022;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+button:hover{
+    transform: translateY(-10px);
+    background-color: #526D82;
+}
+.container{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container button {
+    width: 150px;
+    height: 80px;
+    margin: 50px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.container button:hover{
+    transform: translateY(-10px);
+    background-color: #526D82;
+}
+.container2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.container2 button {
+    margin-top: 0;
+    width: 130px;
+    height: 90px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #1E2022;
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.TimeSymbol{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-left: 0;
+}
+.container2 button:hover{
+    transform: translateY(-10px);
+    background-color: #526D82;
+}
+
+.Title{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.Theme{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.Time{
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 100px;
+}
+.plus{
+    background-color:#1E2022;
+    color:white;
+    border: 2px solid white;
+    border-radius:10px;
+    width: 40px;
+    height:40px;
+    text-align: center;
+}
+.minus{
+    display: flex;
+    background-color:#1E2022;
+    color:white;
+    border: 2px solid white;
+    border-radius:10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+.minus button{
+    margin: 0;
+}
+.plus:hover{
+    color: white;
+    background-color: #9DB2BF;
+}
+.minus:hover{
+    color: white;
+    background-color: #9DB2BF;
+}
+.ChangeButtons{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.ChangeButtons button{
+    width: 150px;
+    height: 80px;
+    margin: 50px;
+
+    transition: transform 0.3s, background-color 0.3s;
+}
+.ChangeButtons button:hover{
+    transform: translateY(-10px);
+    background-color: #526D82;
+}.ChangeButtons button{
+    width: 150px;
+    height: 80px;
+    margin: 50px;
+}
+.ChangeButtons button:hover{
+    background-color: #526D82;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Online Timer</title>
+    <script src="Change_script.js"></script>
+    <link id="theme" rel="stylesheet" href="../style/dark_style.css">
+    <link rel="icon" href="../images/timericon.png" type="image/xicon">
+</head>
+
+<body>
+<div class="TopNav">
+    <a class="active" href="Change.html">Countdown</a>
+    <a href="../index.html">Stopwatch</a>
+</div>
+
+<h1  class="Title">Countdown</h1>
+
+<div class="container2">
+    <button id="0" type="button">00</button>
+    <p class="TimeSymbol">:</p>
+    <button id="1" type="button">05</button>
+    <p class="TimeSymbol">:</p>
+    <button id="2" type="button">00</button>
+    <p class="TimeSymbol">.</p>
+    <button id="3" type="button">00</button>
+</div>
+
+<div class="ChangeButtons">
+    <button id="sp" type="button" onclick="cancel()">cancel</button>
+    <button id="cr" type="button" onclick="confirm()">confirm</button>
+</div>
+
+<!--<div class="changeButtons">-->
+<!--    <button class="minus" id="hourMinus" onclick="hm()" type="button">-</button>-->
+<!--    <button class="minus" id="minMinus" onclick="mm()" type="button">-</button>-->
+<!--    <button class="minus" id="secMinus" onclick="sm()" type="button">-</button>-->
+<!--    <button class="minus" id="zeroOneSecMinus" onclick="zm()" type="button">-</button>-->
+<!--    <button class="plus" id="hourPlus" onclick="hp()" type="button">+</button>-->
+<!--    <button class="plus" id="minPlus" onclick="mp()" type="button">+</button>-->
+<!--    <button class="plus" id="secPlus" onclick="sp()" type="button">+</button>-->
+<!--    <button class="plus" id="zeroOneSecPlus" onclick="zp()" type="button">+</button>-->
+<!--</div>-->
+
+<img id="sty" src="../images/light.png" alt="Button" onclick="sty()" class="Theme">
+
+</body>
+
+</html>
